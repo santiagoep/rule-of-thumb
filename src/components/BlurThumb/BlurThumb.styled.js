@@ -1,38 +1,4 @@
-import styled, { css } from 'styled-components';
-
-const controlsStyles = () => css`
-  cursor: pointer;
-  width: 50%;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-  :after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    opacity: 0.7;
-  }
-  :hover {
-    :after {
-      opacity: 1;
-    }
-  }
-`;
-
-const controlsLogosStyles = () => css`
-  position: relative;
-  height: 40px;
-  width: 40px;
-  > svg {
-    color: red;
-  }
-`;
+import styled from 'styled-components';
 
 export const StyledContainer = styled.div`
   width: 100%;
@@ -85,33 +51,4 @@ export const StyledMoreInfoLogo = styled.div`
 
 export const StyledCallToAction = styled.h3`
   font-weight: bold;
-`;
-
-export const StyledActions = styled.div`
-  width: 100%;
-  height: 75px;
-  display: flex;
-  color: white;
-`;
-
-export const StyledLike = styled.div`
-  ${controlsStyles}
-  :after {
-    background: ${({ theme }) => theme.colors.bg.like};
-  }
-`;
-
-export const StyledDisLike = styled.div`
-  ${controlsStyles}
-  :after {
-    background: ${({ theme }) => theme.colors.bg.dislike};
-  }
-`;
-
-export const StyledLikeLogo = styled.div`
-  ${controlsLogosStyles}
-`;
-
-export const StyledDisLikeLogo = styled.div`
-  ${controlsLogosStyles}
 `;

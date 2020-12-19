@@ -4,10 +4,10 @@ import PropTypes from 'prop-types';
 import StyledContainer from './Container.styled';
 
 const Container = ({
-  centered = true,
-  fluid = false,
-  limit = false,
-  relative = true,
+  centered,
+  fluid,
+  limit,
+  relative,
   children,
   height,
   id

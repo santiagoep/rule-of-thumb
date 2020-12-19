@@ -144,6 +144,20 @@ const BaseStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
   }
+
+  ol, ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  button {
+    outline: none;
+  }
+
+  a {
+    color: inherit;
+  }
 `;
 
 export default BaseStyles;

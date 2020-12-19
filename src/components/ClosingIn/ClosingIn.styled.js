@@ -42,14 +42,12 @@ export const StyledTimeContainer = styled.div`
   padding-left: ${({ theme }) => theme.utils.spacing(5)};
   color: ${({ theme }) => theme.colors.font.primary};
   background-color: ${({ theme }) => theme.colors.bg.secondary30};
-`;
-
-export const StyledTime = styled.span`
   font-size: ${({ theme }) => theme.font.size.h4};
 `;
+
+export const StyledTime = styled.span``;
 
 export const StyledUnitTime = styled.span`
-  font-size: ${({ theme }) => theme.font.size.h4};
   margin-left: ${({ theme }) => theme.utils.spacing(2)};
   font-weight: 300;
 `;

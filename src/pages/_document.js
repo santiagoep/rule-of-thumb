@@ -31,9 +31,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang='es'>
-        <Head>
-          <title>Zemoga | Build Better</title>
-        </Head>
+        <Head />
         <body>
           <Main />
           <NextScript />

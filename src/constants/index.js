@@ -5,3 +5,8 @@ export const stickyStates = {
   STATUS_RELEASED: 1,
   STATUS_FIXED: 2
 };
+
+export const thumbActionTypes = {
+  like: 'like',
+  dislike: 'dislike'
+};
