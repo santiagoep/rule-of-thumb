@@ -42,17 +42,18 @@ ThumbActions.propTypes = {
   repeatActionText: PropTypes.string,
   onVote: PropTypes.func,
   onVoteAgain: PropTypes.func,
-  previousVote: PropTypes.arrayOf([
+  previousVote: PropTypes.oneOf([
     thumbActionTypes.like,
     thumbActionTypes.dislike
-  ]).isRequired
+  ])
 };
 
 ThumbActions.defaultProps = {
   actionText: 'Vote now',
   repeatActionText: 'Vote again',
   onVote: () => {},
-  onVoteAgain: () => {}
+  onVoteAgain: () => {},
+  previousVote: undefined
 };
 
 export default ThumbActions;
