@@ -1,5 +1,5 @@
 {
-  "name": "lsj-ecommerce",
+  "name": "zemoga-ui-test",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "prettier-lint": "node_modules/.bin/prettier -l --write \"src/**/*.js\"",
     "publish": "vercel --prod"
   },
-  "repository": "git@github.com:santiagoep/lsj-ecommerce.git",
+  "repository": "git@github.com:santiagoep/zemoga-ui-test.git",
   "author": "santiagoep <hola@santiagoep.com>",
   "license": "MIT",
   "dependencies": {
@@ -21,7 +21,6 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-redux": "^7.2.2",
-    "react-stickynode": "^3.0.4",
     "redux": "^4.0.5",
     "redux-persist": "^6.0.0",
     "reduxsauce": "^1.2.0",
